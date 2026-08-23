@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  --grab-green: #00B14F;
+  --grab-green-dark: #008C3E;
+  --grab-black: #1C1C1C;
+  --grab-gray: #F2F2F2;
+  --grab-light-gray: #F7F7F7;
+  --grab-text-muted: #676767;
+  --grab-border: #EEEEEE;
+  --grab-badge-bg: #FFF4E5;
+  --grab-badge-text: #D48D3B;
+  --grab-dot-bg: #E8F8EF;
+}
+
+body {
+  background-color: var(--grab-gray);
+  color: var(--grab-black);
+  font-family: 'Inter', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Custom High Density UI Utilities */
+.bg-grab-green {
+  background-color: #00B14F;
+}
+.text-grab-green {
+  color: #00B14F;
+}
+.border-grab-green {
+  border-color: #00B14F;
+}
+.bg-grab-gray {
+  background-color: #F2F2F2;
+}
+.bg-grab-light-gray {
+  background-color: #F7F7F7;
+}
+.bg-grab-dot {
+  background-color: #E8F8EF;
+}
+.text-grab-muted {
+  color: #676767;
+}
+.border-grab-border {
+  border-color: #EEEEEE;
+}
+
+/* Hide scrollbar for clean high density horizontal scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

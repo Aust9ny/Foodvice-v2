@@ -1,0 +1,6 @@
+{
+  "name": "Foodvice",
+  "description": "Traveler's food guide to discover and support traditional heritage restaurants and mom-and-pop stalls with community additions, authentic menus, rates, reviews, and a one-time ad removal pass.",
+  "requestFramePermissions": ["geolocation", "notifications"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
